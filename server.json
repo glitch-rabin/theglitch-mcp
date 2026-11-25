@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.glitch-rabin/theglitch",
+  "title": "The Glitch",
+  "description": "Read-only lookups into theglitch.ai: AI glossary, daily AI story, guides, prompts, repos, pools.",
+  "version": "1.1.0",
+  "websiteUrl": "https://www.theglitch.ai",
+  "repository": {
+    "url": "https://github.com/glitch-rabin/theglitch-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.theglitch.ai/mcp"
+    }
+  ]
+}
